@@ -19,7 +19,7 @@
     // Override point for customization after application launch.
     
     //hello world deneme
-    
+    //yeni push deneme
     return YES;
 }
 
