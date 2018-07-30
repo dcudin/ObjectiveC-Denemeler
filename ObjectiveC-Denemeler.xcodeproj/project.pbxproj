@@ -15,6 +15,8 @@
 		333C6E49210C7A2600A9407B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 333C6E48210C7A2600A9407B /* main.m */; };
 		333C6E53210C7A2600A9407B /* ObjectiveC_DenemelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 333C6E52210C7A2600A9407B /* ObjectiveC_DenemelerTests.m */; };
 		333C6E5E210C7A2600A9407B /* ObjectiveC_DenemelerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 333C6E5D210C7A2600A9407B /* ObjectiveC_DenemelerUITests.m */; };
+		333C6E6F210C7CCE00A9407B /* Kisi.m in Sources */ = {isa = PBXBuildFile; fileRef = 333C6E6E210C7CCE00A9407B /* Kisi.m */; };
+		333C6E72210CAE3000A9407B /* Ogrenci.m in Sources */ = {isa = PBXBuildFile; fileRef = 333C6E71210CAE3000A9407B /* Ogrenci.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		333C6E59210C7A2600A9407B /* ObjectiveC-DenemelerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveC-DenemelerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		333C6E5D210C7A2600A9407B /* ObjectiveC_DenemelerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveC_DenemelerUITests.m; sourceTree = "<group>"; };
 		333C6E5F210C7A2600A9407B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333C6E6D210C7CCE00A9407B /* Kisi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kisi.h; sourceTree = "<group>"; };
+		333C6E6E210C7CCE00A9407B /* Kisi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kisi.m; sourceTree = "<group>"; };
+		333C6E70210CAE3000A9407B /* Ogrenci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ogrenci.h; sourceTree = "<group>"; };
+		333C6E71210CAE3000A9407B /* Ogrenci.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ogrenci.m; sourceTree = "<group>"; };
+		333C6E75210CC58E00A9407B /* OgrenciSorumlulukari.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OgrenciSorumlulukari.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +117,11 @@
 				333C6E44210C7A2600A9407B /* LaunchScreen.storyboard */,
 				333C6E47210C7A2600A9407B /* Info.plist */,
 				333C6E48210C7A2600A9407B /* main.m */,
+				333C6E6D210C7CCE00A9407B /* Kisi.h */,
+				333C6E6E210C7CCE00A9407B /* Kisi.m */,
+				333C6E70210CAE3000A9407B /* Ogrenci.h */,
+				333C6E71210CAE3000A9407B /* Ogrenci.m */,
+				333C6E75210CC58E00A9407B /* OgrenciSorumlulukari.h */,
 			);
 			path = "ObjectiveC-Denemeler";
 			sourceTree = "<group>";
@@ -263,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				333C6E3E210C7A2400A9407B /* ViewController.m in Sources */,
+				333C6E72210CAE3000A9407B /* Ogrenci.m in Sources */,
+				333C6E6F210C7CCE00A9407B /* Kisi.m in Sources */,
 				333C6E49210C7A2600A9407B /* main.m in Sources */,
 				333C6E3B210C7A2400A9407B /* AppDelegate.m in Sources */,
 			);
